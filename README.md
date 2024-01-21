@@ -64,4 +64,4 @@ Welcome to the Task Manager! This Python console-based application provides user
 
 ## Flowchart
 
-Before delving into the code, take a look at the [Task Manager Flowchart](flowchart.png) to understand the logical flow of the game.
+Before delving into the code, take a look at the [Task Manager Flowchart](Planner_Project.png) to understand the logical flow of the game.

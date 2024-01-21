@@ -1,72 +1,67 @@
-# Hangman Game Readme
+# Task Manager Readme
 
 ## Introduction
 
-Welcome to the Hangman Game! This Python console-based game challenges players to guess a word by suggesting letters within a limited number of attempts. The game comes with predefined word categories, including animals, subjects, food, countries, clothes, and sports.
+Welcome to the Task Manager! This Python console-based application provides users with a simple and efficient way to manage their tasks. It includes features such as adding tasks, deleting tasks, and listing tasks based on various criteria like daily, weekly, or user-defined intervals.
 
 ## Table of Contents
 
 1. [Features](#features)
 2. [Requirements](#requirements)
 3. [Installation](#installation)
-4. [How to Play](#how-to-play)
-5. [Word Categories](#word-categories)
-6. [Flowchart](#flowchart)
+4. [Usage](#usage)
+5. [File Structure](#file-structure)
+6. [Acknowledgments](#acknowledgments)
 
 ## Features
 
-- Multiple word categories to choose from.
+- Add, delete, and display tasks.
+- Categorize tasks into daily, weekly, or user-defined intervals.
 - Interactive console interface.
-- Visual representation of the hangman as the game progresses.
-- Fun and educational way to enhance vocabulary.
+- Error handling for tasks with overlapping time intervals.
+- Clear and visually appealing design.
 
 ## Requirements
 
-- Python 3.9.0
+- Python 3.5 and above
 
 ## Installation
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/marouan-boumchahate/Play-Hangman.git
+    git clone https://github.com/your-username/Task-Manager.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd 'Play-Hangman'
-    ```
-    ```
-    cd 'Hangman _ Game'
+    cd Task-Manager
     ```
 
-3. Run the game:
+3. Run the application:
 
     ```bash
-    python 'Hangman - Program.py'
+    python Project_Manager.py
     ```
 
-## How to Play
+## Usage
 
-1. Run the game using the instructions provided in the installation section.
-2. Choose a word category.
-3. The game will randomly select a word from the chosen category.
-4. Guess letters one by one.
-5. Incorrect guesses will result in the drawing of the hangman figure.
-6. Continue guessing until you either correctly guess the word or the hangman is fully drawn.
+1. Run the application using the instructions provided in the installation section.
+2. Navigate through the main menu to add, delete, or display tasks.
+3. Choose specific options for displaying tasks, such as daily, weekly, or user-defined intervals.
+4. Error handling ensures that tasks with overlapping time intervals are not allowed.
+5. Enjoy an efficient and user-friendly way to manage your tasks.
 
-## Word Categories
+## File Structure
 
-The game includes the following word categories:
-
-- Animals
-- Subjects
-- Food
-- Countries
-- Clothes
-- Sports
+- `Error_Exceptions.py`: Defines a custom exception class for handling time-related errors.
+- `Project_Manager.py`: The main file containing the Project_Manager class, responsible for managing the user interface and task interactions.
+- `__init__.py`: An empty file indicating that the directory should be treated as a Python package.
+- `helper_functions.py`: Helper functions for user input, drawing screens, and checking time-related conditions.
+- `task.py`: Defines the `clsTask` class representing a task object with methods for managing task attributes.
+- `tasks_manager.py`: Implements the `Task_Manager` class responsible for managing tasks, including adding, deleting, and displaying tasks.
 
 ## Flowchart
 
-Before delving into the code, take a look at the [Hangman Game Flowchart](flowchart.png) to understand the logical flow of the game.
+Before delving into the code, take a look at the [Task Manager Flowchart](flowchart.png) to understand the logical flow of the game.

@@ -30,13 +30,13 @@ Welcome to the Task Manager! This Python console-based application provides user
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/Task-Manager.git
+    git clone https://github.com/your-username/Planner_Project.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd Task-Manager
+    cd Planner_Project
     ```
 
 3. Run the application:

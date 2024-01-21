@@ -11,7 +11,7 @@ Welcome to the Task Manager! This Python console-based application provides user
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [File Structure](#file-structure)
-6. [Acknowledgments](#acknowledgments)
+6. [Flowchart](#flowchart)
 
 ## Features
 
